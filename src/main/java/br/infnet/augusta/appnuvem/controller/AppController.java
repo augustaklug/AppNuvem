@@ -15,9 +15,6 @@ public class AppController {
     @RequestMapping(value = "/endereco", method = RequestMethod.GET)
     public String endereco(){return "endereco";}
 
-    @RequestMapping(value = "/veiculos", method = RequestMethod.GET)
-    public String veiculos(){return "veiculos";}
-
     @RequestMapping(value = "/covid", method = RequestMethod.GET)
     public String covid(){return "covid";}
 }

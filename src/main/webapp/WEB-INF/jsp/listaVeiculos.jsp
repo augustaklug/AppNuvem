@@ -13,11 +13,11 @@
     <!-- Título -->
         <div class="pt-5">
             <h4 class="display-4 text-center mt-5 mb-5">Consulta de Veículos</h4>
-            <h6 class="display-6 text-center mt-5 mb-5"><em>Selecione a marca para visualizar os veículos:</em></h6>
+            <h6 class="display-6 text-center mt-5 mb-5"><em>Aqui estão os veículos da marca <strong>${veiculos[0].fipe_marca}</strong>:</em></h6>
             <div class="mx-auto container-fluid d-flex justify-content-center">
                 <ul class="list-group list-group-flush mb-5">
-                <c:forEach var="m" items="${marcas}">
-                    <li class="list-group-item"><a href="/veiculos/${m.id}">${m.name}</a></li>
+                <c:forEach var="v" items="${veiculos}">
+                    <li class="list-group-item">${v.name}</li>
                 </c:forEach>
                 </ul>
              </div>
