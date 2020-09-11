@@ -16,7 +16,8 @@
     </div>
     <!-- NavBar -->
     <div class="mt-5 mx-auto mb-5 text-center" style="max-width: 75%">
-        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Viacep - Consulta CEP</button></a>
+        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Viacep - Endereço por CEP</button></a>
+        <a class="nav-link " href="/cep"><button type="button" class="btn btn-warning btn-lg">Viacep - CEP por endereço</button></a>
         <a class="nav-link " href="/veiculos"><button type="button" class="btn btn-success btn-lg">FIPE - Veículos por marca</button></a>
         <a class="nav-link " href="/fotos"><button type="button" class="btn btn-danger btn-lg">JSONPlaceholder - Fotos</button></a>
 

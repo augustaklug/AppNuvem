@@ -5,6 +5,8 @@ import br.infnet.augusta.appnuvem.model.negocio.Endereco;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class EnderecoService {
     @Autowired
@@ -13,4 +15,8 @@ public class EnderecoService {
     public Endereco obterPorCep(String cep){
         return client.obterPorCep(cep);
     }
+
+    public List<Endereco> obterPorEndereco(String uf,
+                                           String municpio,
+                                           String logradouro){return client.obterPorEndereco(uf, municpio, logradouro);}
 }

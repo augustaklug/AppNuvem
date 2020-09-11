@@ -15,6 +15,9 @@ public class AppController {
     @RequestMapping(value = "/endereco", method = RequestMethod.GET)
     public String endereco(){return "endereco";}
 
+    @RequestMapping(value = "/cep", method = RequestMethod.GET)
+    public String cep(){return "cep";}
+
     @RequestMapping(value = "/fotos", method = RequestMethod.GET)
     public String fotos(){return "fotos";}
 }

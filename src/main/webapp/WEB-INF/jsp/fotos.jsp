@@ -14,7 +14,7 @@
         <div class="pt-5">
             <h4 class="display-4 text-center mt-5 mb-5">JSONPlaceholder - Fotos</h4>
         </div>
-        <form action="/fotos/resultado" method="get">
+        <form action="/fotos/resultado" method="post">
             <div class="input-group mb-5 mx-auto" style="max-width: 20em">
                 <span class="input-group-text" id="basic-addon1">Número do álbum:</span>
                 <input type="number" class="form-control" id="album" name="album" min="1" max="100">

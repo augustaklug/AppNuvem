@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class FotoController {
     @Autowired private FotoService service;
 
-    @RequestMapping(value = "/fotos/resultado", method = RequestMethod.GET)
+    @RequestMapping(value = "/fotos/resultado", method = RequestMethod.POST)
     public String obterPorAlbum(
             Model model,
             @RequestParam("album") Integer album

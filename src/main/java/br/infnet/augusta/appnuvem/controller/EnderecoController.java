@@ -12,13 +12,24 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class EnderecoController {
     @Autowired private EnderecoService service;
 
-    @RequestMapping(value = "/endereco/resultado", method = RequestMethod.GET)
+    @RequestMapping(value = "/endereco/resultado", method = RequestMethod.POST)
     public String obterPorCep(
             Model model,
             @RequestParam("cep") String cep
     ){
         model.addAttribute("endereco", service.obterPorCep(cep));
         return "endereco";
+    }
+
+    @RequestMapping(value = "/cep/resultado", method = RequestMethod.POST)
+    public String obterPorEndereco(
+            Model model,
+            @RequestParam("uf") String uf,
+            @RequestParam("municipio") String municipio,
+            @RequestParam("logradouro") String logradouro
+    ){
+        model.addAttribute("enderecos", service.obterPorEndereco(uf, municipio, logradouro));
+        return "cep";
     }
 
 }

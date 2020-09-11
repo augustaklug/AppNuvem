@@ -13,7 +13,7 @@
     <!-- Título -->
     <div class="pt-5">
     <h4 class="display-4 text-center mt-5 mb-5">Consulta de CEP</h4>
-    <form action="/endereco/resultado" method="get">
+    <form action="/endereco/resultado" method="post">
         <div style="max-width: 20em" class="mx-auto input-group mb-3">
             <span class="input-group-text">Informe o CEP: </span>
             <input type="text" class="form-control" id="cep" name="cep">

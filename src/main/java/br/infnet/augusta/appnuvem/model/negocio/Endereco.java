@@ -11,13 +11,12 @@ public class Endereco {
     @Override
     public String toString() {
         return String.format(
-                "%s %s, %s, %s - %s - %s",
+                "%s %s, %s, %s/%s",
                 this.getLogradouro(),
                 this.getComplemento(),
                 this.getBairro(),
                 this.getLocalidade(),
-                this.getUf(),
-                this.getCep()
+                this.getUf()
         );
     }
 
