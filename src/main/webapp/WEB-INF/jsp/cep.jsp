@@ -12,7 +12,7 @@
     <c:import url="/WEB-INF/jsp/header.jsp"/>
     <!-- Título -->
     <div class="pt-5">
-    <h4 class="display-4 text-center mt-5 mb-5">Consulta de CEP</h4>
+    <h4 class="display-4 text-center mt-5 mb-5">CEP por endereço:</h4>
     <form action="/cep/resultado" method="post" style="max-width: 20em" class="mx-auto">
         <div class="input-group mb-3">
             <span class="input-group-text">Estado:</span>
