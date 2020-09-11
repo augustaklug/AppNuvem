@@ -16,9 +16,9 @@
     </div>
     <!-- NavBar -->
     <div class="mt-5 mx-auto mb-5 text-center" style="max-width: 75%">
-        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Consulta CEP</button></a>
-        <a class="nav-link " href="/veiculos"><button type="button" class="btn btn-success btn-lg">Tabela FIPE</button></a>
-        <a class="nav-link " href="/covid"><button type="button" class="btn btn-danger btn-lg">Covid-19</button></a>
+        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Viacep - Consulta CEP</button></a>
+        <a class="nav-link " href="/veiculos"><button type="button" class="btn btn-success btn-lg">FIPE - Veículos por marca</button></a>
+        <a class="nav-link " href="/fotos"><button type="button" class="btn btn-danger btn-lg">JSONPlaceholder - Fotos</button></a>
 
     </div>
 </div>
