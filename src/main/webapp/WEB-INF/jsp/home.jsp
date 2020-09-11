@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" language="java" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="pt-br">
 <head>
     <meta charset="ISO-8859-1">
@@ -10,15 +10,15 @@
 <body>
 <div class="container">
     <c:import url="/WEB-INF/jsp/header.jsp"/>
-    <!-- Título -->
+    <!-- TÃ­tulo -->
     <div class="pt-5">
     <h3 class="display-3 text-center mt-5 mb-5">TP3 - Consumo de APIs com Spring Cloud</h3>
     </div>
     <!-- NavBar -->
     <div class="mt-5 mx-auto mb-5 text-center" style="max-width: 75%">
-        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Viacep - Endereço por CEP</button></a>
-        <a class="nav-link " href="/cep"><button type="button" class="btn btn-warning btn-lg">Viacep - CEP por endereço</button></a>
-        <a class="nav-link " href="/veiculos"><button type="button" class="btn btn-success btn-lg">FIPE - Veículos por marca</button></a>
+        <a class="nav-link " href="/endereco"><button type="button" class="btn btn-primary btn-lg">Viacep - EndereÃ§o por CEP</button></a>
+        <a class="nav-link " href="/cep"><button type="button" class="btn btn-warning btn-lg">Viacep - CEP por endereÃ§o</button></a>
+        <a class="nav-link " href="/veiculos"><button type="button" class="btn btn-success btn-lg">FIPE - VeÃ­culos por marca</button></a>
         <a class="nav-link " href="/fotos"><button type="button" class="btn btn-danger btn-lg">JSONPlaceholder - Fotos</button></a>
 
     </div>

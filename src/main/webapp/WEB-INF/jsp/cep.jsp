@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" language="java" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="pt-br">
 <head>
-    <meta charset="ISO-8859-1">
     <title>TP3 - Consulta de CEP</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
 <body>
 <div class="container">
     <c:import url="/WEB-INF/jsp/header.jsp"/>
-    <!-- Título -->
+    <!-- TÃ­tulo -->
     <div class="pt-5">
-    <h4 class="display-4 text-center mt-5 mb-5">CEP por endereço:</h4>
+    <h4 class="display-4 text-center mt-5 mb-5">CEP por endereÃ§o:</h4>
     <form action="/cep/resultado" method="post" style="max-width: 20em" class="mx-auto">
         <div class="input-group mb-3">
             <span class="input-group-text">Estado:</span>

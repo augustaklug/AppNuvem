@@ -1,19 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" language="java" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="pt-br">
 <head>
     <meta charset="ISO-8859-1">
-    <title>TP3 - Consulta de Veículos</title>
+    <title>TP3 - Consulta de VeÃ­culos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     </head>
     <body>
     <div class="container">
         <c:import url="/WEB-INF/jsp/header.jsp"/>
-    <!-- Título -->
+    <!-- TÃ­tulo -->
         <div class="pt-5">
-            <h4 class="display-4 text-center mt-5 mb-5">Consulta de Veículos</h4>
-            <h6 class="display-6 text-center mt-5 mb-5"><em>Selecione a marca para visualizar os veículos:</em></h6>
+            <h4 class="display-4 text-center mt-5 mb-5">Consulta de VeÃ­culos</h4>
+            <h6 class="display-6 text-center mt-5 mb-5"><em>Selecione a marca para visualizar os veÃ­culos:</em></h6>
             <div class="mx-auto container-fluid d-flex justify-content-center">
                 <ul class="list-group list-group-flush mb-5">
                 <c:forEach var="m" items="${marcas}">
